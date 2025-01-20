@@ -1,0 +1,24 @@
+.searchBarContainer {
+  position: relative;
+}
+
+.searchBarInput {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 245, 0.9);
+  border: none;
+  outline: none;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  color: rgb(87, 87, 87);
+}
+
+@media only screen and (max-width: 900px) {
+  .searchBarInput {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,16 @@
+.btnBanner {
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(57, 5, 105);
+  transition: 0.3s ease-in-out;
+}
+
+.btnBanner:hover {
+  transform: scale(1.1);
+}

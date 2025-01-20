@@ -1,0 +1,40 @@
+.menuBar {
+  display: none;
+  position: relative;
+}
+
+.menuBarIcon {
+  cursor: pointer;
+}
+
+.links {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .menuBar {
+    display: block;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    background-color: #c286fb;
+    box-shadow: 2px 2px 5px 0 rgb(90, 90, 90);
+    width: 150px;
+    height: 400px;
+    transition: 0.3s ease-in-out;
+    left: -131px;
+    top: 52px;
+    border-radius: 12px;
+    position: absolute;
+    padding: 20px 0;
+    color: rgb(57, 5, 105);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+      -2px -2px 3px rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    z-index: 10;
+  }
+  .link {
+    padding: 10px 20px;
+  }
+}

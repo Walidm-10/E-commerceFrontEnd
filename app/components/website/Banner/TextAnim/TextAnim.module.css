@@ -1,0 +1,15 @@
+.bannerSpanContainer {
+  font-weight: bold;
+  font-size: 35px;
+  height: 200px;
+  display: block;
+  color: rgb(57, 5, 105);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+    -2px -2px 3px rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (max-width: 450px) {
+  .bannerSpanContainer {
+    font-size: 20px;
+  }
+}

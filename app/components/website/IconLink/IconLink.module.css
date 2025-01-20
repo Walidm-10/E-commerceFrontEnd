@@ -1,0 +1,11 @@
+.iconLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .iconLink {
+    display: none;
+  }
+}

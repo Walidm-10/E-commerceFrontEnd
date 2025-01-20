@@ -1,0 +1,10 @@
+.cardRateContainer {
+  display: flex;
+  align-items: center;
+}
+
+.cardRate {
+  font-size: 12px;
+  color: gray;
+  margin-left: 5px;
+}

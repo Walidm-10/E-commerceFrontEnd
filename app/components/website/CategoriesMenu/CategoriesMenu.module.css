@@ -1,0 +1,31 @@
+.categoryCards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.categoryCard {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background-color: rgba(240, 240, 240, 0.8);
+}
+
+.categoryTitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.des {
+  width: 100px;
+  height: 30px;
+  color: gray;
+  font-size: 10px;
+  text-overflow: clip;
+  overflow: hidden;
+}

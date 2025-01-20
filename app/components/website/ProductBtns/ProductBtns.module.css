@@ -1,0 +1,23 @@
+.btnsContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btnBuy {
+  background-color: rgb(2, 61, 2);
+  color: #fff;
+}
+
+.btn {
+  border: 1 solid rgb(2, 61, 2);
+  color: rgb(2, 61, 2);
+}
+
+.btn,
+.btnBuy {
+  padding: 10px;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 20px;
+}

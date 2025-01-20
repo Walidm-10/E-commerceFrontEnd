@@ -1,0 +1,9 @@
+.payment {
+  flex: 1;
+}
+
+.payment h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}

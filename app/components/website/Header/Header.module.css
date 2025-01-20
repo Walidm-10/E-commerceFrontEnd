@@ -1,0 +1,52 @@
+.headerContainer {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  user-select: none;
+}
+
+.logoTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(57, 5, 105);
+}
+
+.logo {
+  width: 30px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.iconLinks {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+
+.searchBarCon {
+  position: relative;
+}
+
+@media only screen and (max-width: 900px) {
+  .links {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .logo {
+    width: 20px;
+  }
+}

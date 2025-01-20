@@ -1,0 +1,15 @@
+.countContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 120px;
+  padding: 10px;
+  border-radius: 20px;
+  color: darkgreen;
+  font-weight: bold;
+  background-color: rgb(240, 240, 240);
+}
+
+.count {
+  user-select: none;
+}

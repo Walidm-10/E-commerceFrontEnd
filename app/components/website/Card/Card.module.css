@@ -1,0 +1,123 @@
+.cards {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.cardContainer {
+  width: 200px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.cardContainer:hover .tagCardImg {
+  scale: 1.1;
+}
+
+.cardImg {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 6px;
+  position: relative;
+}
+
+.tagCardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  background-color: rgb(240, 240, 240);
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+.favContainer {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.favContainer:hover {
+  scale: 1.1;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cardNameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardPriceContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.cardName,
+.cardPrice {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cardDollar {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.cardDes {
+  width: 100%;
+  height: 35px;
+  font-size: 12px;
+  color: gray;
+  text-overflow: clip;
+  overflow: hidden;
+}
+
+.cardBtn {
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+  border: 1px solid gray;
+}
+
+.cardBtn:hover {
+  background-color: rgb(2, 61, 2);
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .cards {
+    justify-content: center;
+  }
+}

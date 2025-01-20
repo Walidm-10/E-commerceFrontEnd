@@ -1,0 +1,16 @@
+.cartContain {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.cartContain h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.headerRow {
+  border-bottom: 1px solid rgba(220, 220, 200, 0.8);
+  height: 60px;
+}

@@ -1,0 +1,54 @@
+.navigationMenu {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+
+.navigationMenu:hover {
+  color: rgb(85, 85, 85);
+}
+
+.arrowIcon {
+  transition: 0.3s ease-in-out;
+}
+
+.navigationMenu:hover .arrowIcon {
+  color: rgb(85, 85, 85);
+  transform: rotate(180deg);
+}
+
+.view {
+  width: 90px;
+  height: 50px;
+  top: 20px;
+  position: absolute;
+}
+
+.navigationPage {
+  width: 450px;
+  min-height: 100px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  color: black;
+  position: absolute;
+  top: 54px;
+  z-index: 5;
+  cursor: default;
+  transition: 0.3s ease-in-out;
+}
+
+.navigationMenu:hover .navigationPage {
+  display: block;
+}
+
+.navigationPage {
+  display: none;
+}
+
+.navigationPage:hover {
+  display: block;
+}

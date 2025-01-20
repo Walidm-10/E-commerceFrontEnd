@@ -1,0 +1,7 @@
+.linkHeader {
+  transition: 0.3s;
+}
+
+.linkHeader:hover {
+  color: rgb(85, 85, 85);
+}

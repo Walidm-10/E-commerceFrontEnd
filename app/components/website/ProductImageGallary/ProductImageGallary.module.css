@@ -1,0 +1,9 @@
+.productImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  border-radius: 6px;
+  user-select: none;
+  transition: 0.3s ease-in-out;
+}
