@@ -46,7 +46,7 @@ export default function CheckoutForm(props) {
       elements,
       clientSecret,
       confirmParams: {
-        return_url: `http://localhost:3000/complete?amount=${amount}`,
+        return_url: `https://e-commerce-front-end-lake.vercel.app/complete?amount=${amount}`,
       },
     });
     if (error.type === "card_error" || error.type === "validation_error") {
